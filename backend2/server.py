@@ -6,8 +6,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 # 🔹 Adzuna API Configuration (Replace with your API Key)
-ADZUNA_API_ID = "83230ad8"  # 🔥 Replace with your API ID
-ADZUNA_API_KEY = "bf37a2d589a340997bae225d742647a5"  # 🔥 Replace with your API Key
+ADZUNA_API_ID = "Replace with your API ID"  # 🔥 Replace with your API ID
+ADZUNA_API_KEY = " Replace with your API Key"  # 🔥 Replace with your API Key
 API_URL = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id={ADZUNA_API_ID}&app_key={ADZUNA_API_KEY}&results_per_page=20&what="
 
 # 🔹 Career Categories
