@@ -19,6 +19,9 @@ This AI-powered platform provides:
 
 ## **🚀 How to Use (Setup & Run Instructions)**
 
+### **🔹 Checkout its Demo Video**
+**[https://youtu.be/fRGCtAOoQ24?si=Pkfa83c-N65L_SM3]**  
+
 ### **🔹 Frontend Setup**
 ```bash
 cd MapplsAppathon_Prototype
