@@ -28,9 +28,9 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <header className="relative h-screen flex flex-col justify-center items-center text-center px-6 mt-16 overflow-hidden">
-        <video className="absolute top-0 left-0 w-full h-full object-cover opacity-30">
+        <div className="absolute top-0 left-0 w-full h-full object-cover opacity-30">
           <source src="https://aaftonline.com/blog/wp-content/uploads/2024/08/Career-Growth-vs-Career-Development-The-Key-Differences.jpg" />
-        </video>
+        </div>
         <h2 className="text-6xl font-bold text-cyan-300 z-10 drop-shadow-lg">Your AI-Powered Career Guide</h2>
         <p className="mt-4 text-lg max-w-3xl text-gray-300 z-10">Navigate your tech career with AI-driven guidance, mentorship, skill-building, and job market insights – all in one place.</p>
         <Link to="/mentor-matching" className="mt-6 px-6 py-3 bg-cyan-500 rounded-lg hover:bg-cyan-600 text-white text-lg shadow-lg z-10">
