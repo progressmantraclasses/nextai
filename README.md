@@ -25,6 +25,9 @@ cd MapplsAppathon_Prototype
 npm install  # Install dependencies
 npm run dev  # Run the frontend
 ```
+3. npm install
+4. npm run dev
+5. Open your browser and visit:   http://localhost:5173
 
 ### **🔹 Backend Setup (Multiple Services)**
 #### **Main Backend**
