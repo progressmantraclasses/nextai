@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import career from "../assets/career.mp4";
 
 const features = [
   { name: "Mentors", link: "/careermentor", description: "AI suggests mentors based on career interests." },
@@ -29,8 +28,8 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <header className="relative h-screen flex flex-col justify-center items-center text-center px-6 mt-16 overflow-hidden">
-        <video className="absolute top-0 left-0 w-full h-full object-cover opacity-30" autoPlay loop muted>
-          <source src={career} type="video/mp4" />
+        <video className="absolute top-0 left-0 w-full h-full object-cover opacity-30">
+          <source src="https://aaftonline.com/blog/wp-content/uploads/2024/08/Career-Growth-vs-Career-Development-The-Key-Differences.jpg" />
         </video>
         <h2 className="text-6xl font-bold text-cyan-300 z-10 drop-shadow-lg">Your AI-Powered Career Guide</h2>
         <p className="mt-4 text-lg max-w-3xl text-gray-300 z-10">Navigate your tech career with AI-driven guidance, mentorship, skill-building, and job market insights – all in one place.</p>
